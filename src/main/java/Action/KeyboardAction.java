@@ -11,6 +11,9 @@ public class KeyboardAction {
 public static void main(String[] args) {
 	WebDriver driver = new FirefoxDriver();
 	driver.get("https://testautomationpractice.blogspot.com/#");
+	System.out.println("syteam 1");
+	System.out.println("syteam 2");
+	System.out.println("syteam 3");
 	
 	driver.findElement(By.id("name")).sendKeys("Demo");
 	driver.findElement(By.id("email")).sendKeys("Demo@gmail.com");
